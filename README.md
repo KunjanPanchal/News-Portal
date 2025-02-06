@@ -33,11 +33,7 @@ cd news-portal
 npm install
 ```
 
-### 3️⃣ Get API Key
-1. Sign up on [NewsAPI](https://newsapi.org/) to get a free API key.
-2. Replace "Your api key" with your api
-
-### 4️⃣ Start the Development Server
+### 3️⃣ Start the Development Server
 ```bash
 npm run dev
 ```
