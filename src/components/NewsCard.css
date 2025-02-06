@@ -1,0 +1,38 @@
+.card {
+    /* border: 2px solid red; */
+    display: inline-block;
+    text-align: start;
+    /* Ensures proper stacking */
+    width: 100%;
+    /* Make cards fit within the column */
+    margin-bottom: 16px;
+    /* Space between cards */
+    width: 370px;
+
+}
+
+.title {
+    color: rgb(72, 72, 72);
+    font-weight: 800;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image {
+    /* border-radius: 15px; */
+    overflow: hidden;
+}
+
+.image img {
+    width: 370px;
+    height: 250px;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(9, 125, 125);
+    list-style: none;
+    text-decoration: none;
+}
