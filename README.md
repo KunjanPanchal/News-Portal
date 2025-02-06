@@ -1,8 +1,61 @@
-# React + Vite
+# 📰 News Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic news web application that fetches real-time news from a **News API** and categorizes articles based on user selection. Built using **React** and **Vite**, this project provides an interactive way to stay updated with the latest headlines.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fetches real-time news using a News API.
+- Displays news articles dynamically.
+- Clickable categories to filter news based on interest.
+- Responsive UI for better accessibility.
+
+---
+
+## 🛠 Tech Stack
+- **Frontend**: React, Vite, CSS
+- **API**: News API
+- **State Management**: React Hooks
+- **Routing**: React Router
+
+---
+
+## ⚙ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/news-portal.git
+cd news-portal
+```
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Start the Development Server
+```bash
+npm run dev
+```
+The project will be available at **http://localhost:5173/**.
+
+---
+
+## 📸 Working Demo
+1. **Homepage**: Displays top news articles.
+2. **Category Selection**: Clicking on categories updates the displayed news.
+3. **Responsive Design**: Works well on both desktop and mobile screens.
+
+---
+
+## 📝 Future Enhancements
+- ✅ Search functionality for news articles.
+- ✅ Dark mode for better user experience.
+- ✅ Save favorite articles.
+
+---
+
+## 🤝 Contributing
+Feel free to submit **issues** and **pull requests**! Contributions are always welcome.
+
+---
