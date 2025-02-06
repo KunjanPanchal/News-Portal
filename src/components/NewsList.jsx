@@ -11,7 +11,7 @@ const NewsList = () => {
     
     const getData = async () => {
         console.log("data Fatching.....")
-        await fetch(`https://newsapi.org/v2/everything?q=${category}&from=2025-01-04&sortBy=publishedAt&apiKey=bc036bed1ac34546bfb90ffaf315a531`)
+        await fetch(`Your Api Key`)
             .then((responce) => responce.json())
             .then((json) => {
                 setNewsData(json.
