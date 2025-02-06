@@ -35,7 +35,7 @@ npm install
 
 ### 3️⃣ Get API Key
 1. Sign up on [NewsAPI](https://newsapi.org/) to get a free API key.
-2. Replace ""
+2. Replace "Your api key" with your api
    ```bash
    VITE_NEWS_API_KEY=your_api_key_here
    ```
